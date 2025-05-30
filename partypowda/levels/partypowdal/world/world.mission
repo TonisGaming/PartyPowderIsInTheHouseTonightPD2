@@ -1,0 +1,2090 @@
+<generic_scriptdata type="table">
+	<entry key="default" type="table">
+		<entry key="activate_on_parsed" type="boolean" value="true"/>
+		<entry key="continent" type="string" value="world"/>
+		<entry key="elements" type="table">
+			<entry index="1" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="startup"/>
+				<entry key="id" type="number" value="100000"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100001"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="650 -1800 600"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="2" type="table">
+				<entry key="class" type="string" value="ElementPlayerSpawner"/>
+				<entry key="editor_name" type="string" value="player_spawner"/>
+				<entry key="id" type="number" value="100001"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="775 -1700 600"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="state" type="string" value="standard"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="3" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="unseq_shutter1open010"/>
+				<entry key="id" type="number" value="100026"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-1069 11946 413.129"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_list" type="table">
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="4" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="unseq_shutter1set010"/>
+				<entry key="id" type="number" value="100027"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-1019 11946 413.129"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_list" type="table">
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="5" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="unseq_shutter1open011"/>
+				<entry key="id" type="number" value="100028"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-1669 11946 413.129"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_list" type="table">
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="6" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="unseq_shutter1set011"/>
+				<entry key="id" type="number" value="100029"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-1619 11946 413.129"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_list" type="table">
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="7" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="unseq_shutter1open012"/>
+				<entry key="id" type="number" value="100030"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-4940 5717 413.129"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -5.96047e-008"/>
+					<entry key="trigger_list" type="table">
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="8" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="unseq_shutter1set012"/>
+				<entry key="id" type="number" value="100031"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-4940 5767 413.129"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -5.96047e-008"/>
+					<entry key="trigger_list" type="table">
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="9" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="unseq_shutter1set013"/>
+				<entry key="id" type="number" value="100032"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="5379 10142 538.129"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="10" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="unseq_shutter1open013"/>
+				<entry key="id" type="number" value="100033"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="5379 10092 538.129"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="11" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="unseq_shutter1set014"/>
+				<entry key="id" type="number" value="100034"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="5382 10742 538.129"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="12" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="unseq_shutter1open014"/>
+				<entry key="id" type="number" value="100035"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="5382 10692 538.129"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="13" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="unseq_shutter1set015"/>
+				<entry key="id" type="number" value="100036"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-3644 6571 413.129"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_list" type="table">
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="14" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="unseq_shutter1open015"/>
+				<entry key="id" type="number" value="100037"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-3694 6571 413.129"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_list" type="table">
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="15" type="table">
+				<entry key="class" type="string" value="ElementAreaTrigger"/>
+				<entry key="editor_name" type="string" value="areatrig_startuproof"/>
+				<entry key="id" type="number" value="100043"/>
+				<entry key="module" type="string" value="CoreElementArea"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="string" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="depth" type="number" value="500"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="height" type="number" value="2155"/>
+					<entry key="instigator" type="string" value="player"/>
+					<entry key="instigator_name" type="string" value=""/>
+					<entry key="interval" type="number" value="0.1"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100013"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100040"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100005"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100009"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100007"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100002"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100044"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100045"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100017"/>
+						</entry>
+						<entry index="10" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100016"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="475 -1750 875"/>
+					<entry key="radius" type="number" value="250"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="shape_type" type="string" value="box"/>
+					<entry key="spawn_unit_elements" type="table">
+					</entry>
+					<entry key="substitute_object" type="string" value=""/>
+					<entry key="trigger_on" type="string" value="on_enter"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_disabled_shapes" type="boolean" value="false"/>
+					<entry key="width" type="number" value="2358"/>
+				</entry>
+			</entry>
+			<entry index="16" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_windowshuttersetupware2"/>
+				<entry key="id" type="number" value="100044"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_9"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_8"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_7"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_6"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_5"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_4"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_3"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_2"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_15"/>
+						</entry>
+						<entry index="10" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_14"/>
+						</entry>
+						<entry index="11" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_13"/>
+						</entry>
+						<entry index="12" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_12"/>
+						</entry>
+						<entry index="13" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_11"/>
+						</entry>
+						<entry index="14" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_10"/>
+						</entry>
+						<entry index="15" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="2"/>
+							<entry key="id" type="number" value="100006"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-100 1250 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="17" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_windowshuttersetupware2inside"/>
+				<entry key="id" type="number" value="100045"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2inside_6"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2inside_5"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2inside_4"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2inside_3"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2inside_2"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware2inside_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="2"/>
+							<entry key="id" type="number" value="100046"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-50 1250 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="18" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_windowshuttersetupware2inside001"/>
+				<entry key="id" type="number" value="100046"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2inside_6"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2inside_5"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2inside_4"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2inside_3"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2inside_2"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2inside_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-50 1175 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="19" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_doorshuttersetupware1"/>
+				<entry key="id" type="number" value="100040"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="closeshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware2_4"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="closeshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware2_3"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="closeshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware2_2"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="closeshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware2_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-500 1250 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="20" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_doorshutteropenware1"/>
+				<entry key="id" type="number" value="100041"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="openshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware2_4"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="openshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware2_3"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="openshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware2_2"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="openshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware2_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-500 1175 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="21" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_windowshuttersetupware1"/>
+				<entry key="id" type="number" value="100002"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_9"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_8"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_7"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_6"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_5"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_4"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_3"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_2"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="2"/>
+							<entry key="id" type="number" value="100003"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-300 1250 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="22" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_windowshutteropenware1"/>
+				<entry key="id" type="number" value="100003"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_9"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_8"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_7"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_6"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_5"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_4"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_3"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_2"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware1_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-300 1200 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="23" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_doorshutteropenware001"/>
+				<entry key="id" type="number" value="100004"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="openshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware2_4"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="openshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware2_3"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="openshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware2_2"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="openshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware2_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-450 1175 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="24" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_doorshuttersetupware2"/>
+				<entry key="id" type="number" value="100005"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="closeshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware1_5"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="closeshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware1_4"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="closeshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware1_3"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="closeshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware1_2"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="event" type="string" value="closeshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware1_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-450 1250 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="25" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_windowshutteropenware2"/>
+				<entry key="id" type="number" value="100006"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_9"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_8"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_7"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_6"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_5"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_4"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_3"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_2"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_15"/>
+						</entry>
+						<entry index="10" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_14"/>
+						</entry>
+						<entry index="11" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_13"/>
+						</entry>
+						<entry index="12" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_12"/>
+						</entry>
+						<entry index="13" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_11"/>
+						</entry>
+						<entry index="14" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_10"/>
+						</entry>
+						<entry index="15" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware2_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-100 1175 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="26" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_windowshuttersetupware3"/>
+				<entry key="id" type="number" value="100007"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware3_8"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware3_7"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware3_6"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware3_5"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware3_4"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware3_3"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware3_2"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="event" type="string" value="setup"/>
+							<entry key="instance" type="string" value="windowshutter_ware3_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="2"/>
+							<entry key="id" type="number" value="100008"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-350 1250 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="27" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_windowshutteropenware3"/>
+				<entry key="id" type="number" value="100008"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="openshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware3_8"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware3_7"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware3_6"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware3_5"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware3_4"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware3_3"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware3_2"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="event" type="string" value="closeshutter"/>
+							<entry key="instance" type="string" value="windowshutter_ware3_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-350 1200 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="28" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_doorshuttersetupware3"/>
+				<entry key="id" type="number" value="100009"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="closeshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware3_3"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="closeshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware3_2"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="closeshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware3_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-400 1250 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="29" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_doorshutteropenware3"/>
+				<entry key="id" type="number" value="100010"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="closeshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware3_1"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="closeshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware3_3"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="closeshutters"/>
+							<entry key="instance" type="string" value="doorshutter_ware3_2"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-400 1175 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="30" type="table">
+				<entry key="class" type="string" value="ElementDisableUnit"/>
+				<entry key="editor_name" type="string" value="disun_ware2classiccage"/>
+				<entry key="id" type="number" value="100011"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="300 1250 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="105965"/>
+						<entry index="2" type="number" value="105962"/>
+						<entry index="3" type="number" value="105958"/>
+						<entry index="4" type="number" value="105948"/>
+						<entry index="5" type="number" value="105947"/>
+						<entry index="6" type="number" value="105972"/>
+						<entry index="7" type="number" value="105971"/>
+						<entry index="8" type="number" value="105968"/>
+						<entry index="9" type="number" value="105967"/>
+						<entry index="10" type="number" value="105955"/>
+						<entry index="11" type="number" value="105964"/>
+						<entry index="12" type="number" value="105963"/>
+						<entry index="13" type="number" value="105960"/>
+						<entry index="14" type="number" value="105959"/>
+						<entry index="15" type="number" value="105957"/>
+						<entry index="16" type="number" value="105956"/>
+						<entry index="17" type="number" value="105954"/>
+						<entry index="18" type="number" value="105953"/>
+						<entry index="19" type="number" value="105952"/>
+						<entry index="20" type="number" value="105951"/>
+						<entry index="21" type="number" value="105950"/>
+						<entry index="22" type="number" value="105949"/>
+						<entry index="23" type="number" value="105961"/>
+						<entry index="24" type="number" value="105966"/>
+						<entry index="25" type="number" value="105970"/>
+						<entry index="26" type="number" value="105969"/>
+						<entry index="27" type="number" value="103515"/>
+						<entry index="28" type="number" value="103480"/>
+						<entry index="29" type="number" value="103525"/>
+						<entry index="30" type="number" value="103524"/>
+						<entry index="31" type="number" value="103523"/>
+						<entry index="32" type="number" value="103522"/>
+						<entry index="33" type="number" value="103521"/>
+						<entry index="34" type="number" value="103520"/>
+						<entry index="35" type="number" value="103519"/>
+						<entry index="36" type="number" value="103518"/>
+						<entry index="37" type="number" value="103517"/>
+						<entry index="38" type="number" value="103516"/>
+						<entry index="39" type="number" value="103514"/>
+						<entry index="40" type="number" value="103513"/>
+						<entry index="41" type="number" value="103512"/>
+						<entry index="42" type="number" value="103511"/>
+						<entry index="43" type="number" value="103509"/>
+						<entry index="44" type="number" value="103508"/>
+						<entry index="45" type="number" value="103507"/>
+						<entry index="46" type="number" value="103527"/>
+						<entry index="47" type="number" value="103506"/>
+						<entry index="48" type="number" value="103526"/>
+						<entry index="49" type="number" value="103505"/>
+						<entry index="50" type="number" value="103510"/>
+						<entry index="51" type="number" value="103504"/>
+						<entry index="52" type="number" value="103494"/>
+						<entry index="53" type="number" value="103493"/>
+						<entry index="54" type="number" value="103492"/>
+						<entry index="55" type="number" value="103484"/>
+						<entry index="56" type="number" value="103483"/>
+						<entry index="57" type="number" value="103482"/>
+						<entry index="58" type="number" value="103481"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="31" type="table">
+				<entry key="class" type="string" value="ElementDisableUnit"/>
+				<entry key="editor_name" type="string" value="disun_ware2mirroredcage"/>
+				<entry key="id" type="number" value="100012"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="350 1250 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="105813"/>
+						<entry index="2" type="number" value="101524"/>
+						<entry index="3" type="number" value="101426"/>
+						<entry index="4" type="number" value="101419"/>
+						<entry index="5" type="number" value="101418"/>
+						<entry index="6" type="number" value="105816"/>
+						<entry index="7" type="number" value="105815"/>
+						<entry index="8" type="number" value="105820"/>
+						<entry index="9" type="number" value="105819"/>
+						<entry index="10" type="number" value="101404"/>
+						<entry index="11" type="number" value="101423"/>
+						<entry index="12" type="number" value="101422"/>
+						<entry index="13" type="number" value="101417"/>
+						<entry index="14" type="number" value="101416"/>
+						<entry index="15" type="number" value="101415"/>
+						<entry index="16" type="number" value="101414"/>
+						<entry index="17" type="number" value="101413"/>
+						<entry index="18" type="number" value="101412"/>
+						<entry index="19" type="number" value="101411"/>
+						<entry index="20" type="number" value="101410"/>
+						<entry index="21" type="number" value="101409"/>
+						<entry index="22" type="number" value="101408"/>
+						<entry index="23" type="number" value="101407"/>
+						<entry index="24" type="number" value="105818"/>
+						<entry index="25" type="number" value="105817"/>
+						<entry index="26" type="number" value="105814"/>
+						<entry index="27" type="number" value="103515"/>
+						<entry index="28" type="number" value="103480"/>
+						<entry index="29" type="number" value="103525"/>
+						<entry index="30" type="number" value="103524"/>
+						<entry index="31" type="number" value="103523"/>
+						<entry index="32" type="number" value="103522"/>
+						<entry index="33" type="number" value="103521"/>
+						<entry index="34" type="number" value="103520"/>
+						<entry index="35" type="number" value="103519"/>
+						<entry index="36" type="number" value="103518"/>
+						<entry index="37" type="number" value="103517"/>
+						<entry index="38" type="number" value="103516"/>
+						<entry index="39" type="number" value="103514"/>
+						<entry index="40" type="number" value="103513"/>
+						<entry index="41" type="number" value="103512"/>
+						<entry index="42" type="number" value="103511"/>
+						<entry index="43" type="number" value="103509"/>
+						<entry index="44" type="number" value="103508"/>
+						<entry index="45" type="number" value="103507"/>
+						<entry index="46" type="number" value="103527"/>
+						<entry index="47" type="number" value="103506"/>
+						<entry index="48" type="number" value="103526"/>
+						<entry index="49" type="number" value="103505"/>
+						<entry index="50" type="number" value="103510"/>
+						<entry index="51" type="number" value="103504"/>
+						<entry index="52" type="number" value="103494"/>
+						<entry index="53" type="number" value="103493"/>
+						<entry index="54" type="number" value="103492"/>
+						<entry index="55" type="number" value="103484"/>
+						<entry index="56" type="number" value="103483"/>
+						<entry index="57" type="number" value="103482"/>
+						<entry index="58" type="number" value="103481"/>
+						<entry index="59" type="number" value="101480"/>
+						<entry index="60" type="number" value="101479"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="32" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_001"/>
+				<entry key="id" type="number" value="100013"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100011"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100012"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100014"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100015"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="375 1325 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="33" type="table">
+				<entry key="class" type="string" value="ElementDisableUnit"/>
+				<entry key="editor_name" type="string" value="disun_ware1up"/>
+				<entry key="id" type="number" value="100014"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="400 1250 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="103515"/>
+						<entry index="2" type="number" value="103525"/>
+						<entry index="3" type="number" value="103524"/>
+						<entry index="4" type="number" value="103523"/>
+						<entry index="5" type="number" value="103522"/>
+						<entry index="6" type="number" value="103521"/>
+						<entry index="7" type="number" value="103520"/>
+						<entry index="8" type="number" value="103519"/>
+						<entry index="9" type="number" value="103518"/>
+						<entry index="10" type="number" value="103517"/>
+						<entry index="11" type="number" value="103516"/>
+						<entry index="12" type="number" value="103514"/>
+						<entry index="13" type="number" value="103513"/>
+						<entry index="14" type="number" value="103512"/>
+						<entry index="15" type="number" value="103527"/>
+						<entry index="16" type="number" value="103526"/>
+						<entry index="17" type="number" value="105965"/>
+						<entry index="18" type="number" value="105962"/>
+						<entry index="19" type="number" value="105958"/>
+						<entry index="20" type="number" value="105948"/>
+						<entry index="21" type="number" value="105947"/>
+						<entry index="22" type="number" value="105972"/>
+						<entry index="23" type="number" value="105971"/>
+						<entry index="24" type="number" value="105968"/>
+						<entry index="25" type="number" value="105967"/>
+						<entry index="26" type="number" value="105955"/>
+						<entry index="27" type="number" value="105964"/>
+						<entry index="28" type="number" value="105963"/>
+						<entry index="29" type="number" value="105960"/>
+						<entry index="30" type="number" value="105959"/>
+						<entry index="31" type="number" value="105957"/>
+						<entry index="32" type="number" value="105956"/>
+						<entry index="33" type="number" value="105954"/>
+						<entry index="34" type="number" value="105953"/>
+						<entry index="35" type="number" value="105952"/>
+						<entry index="36" type="number" value="105951"/>
+						<entry index="37" type="number" value="105950"/>
+						<entry index="38" type="number" value="105949"/>
+						<entry index="39" type="number" value="105961"/>
+						<entry index="40" type="number" value="105966"/>
+						<entry index="41" type="number" value="105970"/>
+						<entry index="42" type="number" value="105969"/>
+						<entry index="43" type="number" value="105813"/>
+						<entry index="44" type="number" value="101524"/>
+						<entry index="45" type="number" value="101426"/>
+						<entry index="46" type="number" value="101419"/>
+						<entry index="47" type="number" value="101418"/>
+						<entry index="48" type="number" value="105816"/>
+						<entry index="49" type="number" value="105815"/>
+						<entry index="50" type="number" value="105820"/>
+						<entry index="51" type="number" value="105819"/>
+						<entry index="52" type="number" value="101404"/>
+						<entry index="53" type="number" value="101423"/>
+						<entry index="54" type="number" value="101422"/>
+						<entry index="55" type="number" value="101417"/>
+						<entry index="56" type="number" value="101416"/>
+						<entry index="57" type="number" value="101415"/>
+						<entry index="58" type="number" value="101414"/>
+						<entry index="59" type="number" value="101413"/>
+						<entry index="60" type="number" value="101412"/>
+						<entry index="61" type="number" value="101411"/>
+						<entry index="62" type="number" value="101410"/>
+						<entry index="63" type="number" value="101409"/>
+						<entry index="64" type="number" value="101408"/>
+						<entry index="65" type="number" value="101407"/>
+						<entry index="66" type="number" value="105818"/>
+						<entry index="67" type="number" value="105817"/>
+						<entry index="68" type="number" value="105814"/>
+						<entry index="69" type="number" value="101694"/>
+						<entry index="70" type="number" value="101693"/>
+						<entry index="71" type="number" value="101692"/>
+						<entry index="72" type="number" value="101691"/>
+						<entry index="73" type="number" value="101690"/>
+						<entry index="74" type="number" value="101689"/>
+						<entry index="75" type="number" value="101688"/>
+						<entry index="76" type="number" value="101687"/>
+						<entry index="77" type="number" value="101686"/>
+						<entry index="78" type="number" value="101685"/>
+						<entry index="79" type="number" value="101684"/>
+						<entry index="80" type="number" value="101683"/>
+						<entry index="81" type="number" value="101682"/>
+						<entry index="82" type="number" value="101681"/>
+						<entry index="83" type="number" value="101680"/>
+						<entry index="84" type="number" value="101679"/>
+						<entry index="85" type="number" value="101678"/>
+						<entry index="86" type="number" value="101677"/>
+						<entry index="87" type="number" value="101674"/>
+						<entry index="88" type="number" value="101673"/>
+						<entry index="89" type="number" value="101672"/>
+						<entry index="90" type="number" value="101671"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="34" type="table">
+				<entry key="class" type="string" value="ElementDisableUnit"/>
+				<entry key="editor_name" type="string" value="disun_ware1down"/>
+				<entry key="id" type="number" value="100015"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="450 1250 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="unit_ids" type="table">
+						<entry index="1" type="number" value="103480"/>
+						<entry index="2" type="number" value="103511"/>
+						<entry index="3" type="number" value="103509"/>
+						<entry index="4" type="number" value="103508"/>
+						<entry index="5" type="number" value="103507"/>
+						<entry index="6" type="number" value="103506"/>
+						<entry index="7" type="number" value="103505"/>
+						<entry index="8" type="number" value="103510"/>
+						<entry index="9" type="number" value="103504"/>
+						<entry index="10" type="number" value="103494"/>
+						<entry index="11" type="number" value="103493"/>
+						<entry index="12" type="number" value="103492"/>
+						<entry index="13" type="number" value="103484"/>
+						<entry index="14" type="number" value="103483"/>
+						<entry index="15" type="number" value="103482"/>
+						<entry index="16" type="number" value="103481"/>
+						<entry index="17" type="number" value="105813"/>
+						<entry index="18" type="number" value="101524"/>
+						<entry index="19" type="number" value="101426"/>
+						<entry index="20" type="number" value="101419"/>
+						<entry index="21" type="number" value="101418"/>
+						<entry index="22" type="number" value="105816"/>
+						<entry index="23" type="number" value="105815"/>
+						<entry index="24" type="number" value="105820"/>
+						<entry index="25" type="number" value="105819"/>
+						<entry index="26" type="number" value="101404"/>
+						<entry index="27" type="number" value="101423"/>
+						<entry index="28" type="number" value="101422"/>
+						<entry index="29" type="number" value="101417"/>
+						<entry index="30" type="number" value="101416"/>
+						<entry index="31" type="number" value="101415"/>
+						<entry index="32" type="number" value="101414"/>
+						<entry index="33" type="number" value="101413"/>
+						<entry index="34" type="number" value="101412"/>
+						<entry index="35" type="number" value="101411"/>
+						<entry index="36" type="number" value="101410"/>
+						<entry index="37" type="number" value="101409"/>
+						<entry index="38" type="number" value="101408"/>
+						<entry index="39" type="number" value="101407"/>
+						<entry index="40" type="number" value="105818"/>
+						<entry index="41" type="number" value="105817"/>
+						<entry index="42" type="number" value="105814"/>
+						<entry index="43" type="number" value="105965"/>
+						<entry index="44" type="number" value="105962"/>
+						<entry index="45" type="number" value="105958"/>
+						<entry index="46" type="number" value="105948"/>
+						<entry index="47" type="number" value="105947"/>
+						<entry index="48" type="number" value="105972"/>
+						<entry index="49" type="number" value="105971"/>
+						<entry index="50" type="number" value="105968"/>
+						<entry index="51" type="number" value="105967"/>
+						<entry index="52" type="number" value="105955"/>
+						<entry index="53" type="number" value="105964"/>
+						<entry index="54" type="number" value="105963"/>
+						<entry index="55" type="number" value="105960"/>
+						<entry index="56" type="number" value="105959"/>
+						<entry index="57" type="number" value="105957"/>
+						<entry index="58" type="number" value="105956"/>
+						<entry index="59" type="number" value="105954"/>
+						<entry index="60" type="number" value="105953"/>
+						<entry index="61" type="number" value="105952"/>
+						<entry index="62" type="number" value="105951"/>
+						<entry index="63" type="number" value="105950"/>
+						<entry index="64" type="number" value="105949"/>
+						<entry index="65" type="number" value="105961"/>
+						<entry index="66" type="number" value="105966"/>
+						<entry index="67" type="number" value="105970"/>
+						<entry index="68" type="number" value="105969"/>
+						<entry index="69" type="number" value="101659"/>
+						<entry index="70" type="number" value="101658"/>
+						<entry index="71" type="number" value="101657"/>
+						<entry index="72" type="number" value="101656"/>
+						<entry index="73" type="number" value="101655"/>
+						<entry index="74" type="number" value="101654"/>
+						<entry index="75" type="number" value="101653"/>
+						<entry index="76" type="number" value="101652"/>
+						<entry index="77" type="number" value="101662"/>
+						<entry index="78" type="number" value="101661"/>
+					</entry>
+				</entry>
+			</entry>
+			<entry index="35" type="table">
+				<entry key="class" type="string" value="ElementObjective"/>
+				<entry key="editor_name" type="string" value="objective_001"/>
+				<entry key="id" type="number" value="100016"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="countdown" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="objective" type="string" value="parpow_van_1"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-325 1050 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="state" type="string" value="complete_and_activate"/>
+					<entry key="sub_objective" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="36" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_warehouse1doorssetup"/>
+				<entry key="id" type="number" value="100017"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="blackshutter"/>
+							<entry key="instance" type="string" value="waredoor_ware1_1"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="blackdoor"/>
+							<entry key="instance" type="string" value="waredoor_ware1_1"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="blackdoor"/>
+							<entry key="instance" type="string" value="waredoor_ware1_3"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="blackshutter"/>
+							<entry key="instance" type="string" value="waredoor_ware1_3"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="event" type="string" value="blackshutter"/>
+							<entry key="instance" type="string" value="waredoor_ware1_2"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="event" type="string" value="blackdoor"/>
+							<entry key="instance" type="string" value="waredoor_ware1_2"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-500 950 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="37" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_warehouse1alldoorsactivate"/>
+				<entry key="id" type="number" value="100018"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="dooractivate"/>
+							<entry key="instance" type="string" value="waredoor_ware1_1"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="shutterup"/>
+							<entry key="instance" type="string" value="waredoor_ware1_1"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="dooractivate"/>
+							<entry key="instance" type="string" value="waredoor_ware1_3"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="shutterup"/>
+							<entry key="instance" type="string" value="waredoor_ware1_3"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="event" type="string" value="dooractivate"/>
+							<entry key="instance" type="string" value="waredoor_ware1_2"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="event" type="string" value="shutterup"/>
+							<entry key="instance" type="string" value="waredoor_ware1_2"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-500 850 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="38" type="table">
+				<entry key="class" type="string" value="ElementInteraction"/>
+				<entry key="editor_name" type="string" value="interaction_001"/>
+				<entry key="id" type="number" value="100019"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="debug_mode" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="host_only" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100020"/>
+						</entry>
+					</entry>
+					<entry key="override_timer" type="number" value="-1"/>
+					<entry key="position" type="vector3" value="925 2075 272.404"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="tweak_data_id" type="string" value="bodybags_bag"/>
+				</entry>
+			</entry>
+			<entry index="39" type="table">
+				<entry key="class" type="string" value="ElementEquipment"/>
+				<entry key="editor_name" type="string" value="equipment_001"/>
+				<entry key="id" type="number" value="100020"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="equipment" type="string" value="pex_unloaded_card"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="875 2075 272.404"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="40" type="table">
+				<entry key="class" type="string" value="ElementInteraction"/>
+				<entry key="editor_name" type="string" value="interaction_002"/>
+				<entry key="id" type="number" value="100021"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="debug_mode" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="host_only" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100022"/>
+						</entry>
+					</entry>
+					<entry key="override_timer" type="number" value="-1"/>
+					<entry key="position" type="vector3" value="925 2125 272.404"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="tweak_data_id" type="string" value="bodybags_bag"/>
+				</entry>
+			</entry>
+			<entry index="41" type="table">
+				<entry key="class" type="string" value="ElementEquipment"/>
+				<entry key="editor_name" type="string" value="equipment_002"/>
+				<entry key="id" type="number" value="100022"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="equipment" type="string" value="pex_loaded_card"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="875 2125 272.404"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="42" type="table">
+				<entry key="class" type="string" value="ElementEquipment"/>
+				<entry key="editor_name" type="string" value="equipment_003"/>
+				<entry key="id" type="number" value="100023"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="equipment" type="string" value="pex_loaded_card_lvl_2"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="875 2175 272.404"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="43" type="table">
+				<entry key="class" type="string" value="ElementInteraction"/>
+				<entry key="editor_name" type="string" value="interaction_003"/>
+				<entry key="id" type="number" value="100024"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="debug_mode" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="host_only" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100023"/>
+						</entry>
+					</entry>
+					<entry key="override_timer" type="number" value="-1"/>
+					<entry key="position" type="vector3" value="925 2175 272.404"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="tweak_data_id" type="string" value="bodybags_bag"/>
+				</entry>
+			</entry>
+			<entry index="44" type="table">
+				<entry key="class" type="string" value="ElementAreaTrigger"/>
+				<entry key="editor_name" type="string" value="areatrig_startuproof001"/>
+				<entry key="id" type="number" value="100025"/>
+				<entry key="module" type="string" value="CoreElementArea"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="string" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="depth" type="number" value="500"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="height" type="number" value="500"/>
+					<entry key="instigator" type="string" value="player"/>
+					<entry key="instigator_name" type="string" value=""/>
+					<entry key="interval" type="number" value="0.1"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100038"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2050 2275 0.000438839"/>
+					<entry key="radius" type="number" value="250"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="shape_type" type="string" value="box"/>
+					<entry key="spawn_unit_elements" type="table">
+					</entry>
+					<entry key="substitute_object" type="string" value=""/>
+					<entry key="trigger_on" type="string" value="both"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_disabled_shapes" type="boolean" value="false"/>
+					<entry key="width" type="number" value="500"/>
+				</entry>
+			</entry>
+			<entry index="45" type="table">
+				<entry key="class" type="string" value="ElementObjective"/>
+				<entry key="editor_name" type="string" value="objective_002"/>
+				<entry key="id" type="number" value="100038"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="countdown" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="objective" type="string" value="parpow_van_2"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-275 1050 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="state" type="string" value="complete_and_activate"/>
+					<entry key="sub_objective" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="46" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_warehouse2doorssetup"/>
+				<entry key="id" type="number" value="100039"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="blackdoor"/>
+							<entry key="instance" type="string" value="waredoor_ware2_3"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="blackdoor"/>
+							<entry key="instance" type="string" value="waredoor_ware2_2"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="blackdoor"/>
+							<entry key="instance" type="string" value="waredoor_ware2_1"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="blackshutter"/>
+							<entry key="instance" type="string" value="waredoor_ware2_3"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="event" type="string" value="blackshutter"/>
+							<entry key="instance" type="string" value="waredoor_ware2_2"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="event" type="string" value="blackshutter"/>
+							<entry key="instance" type="string" value="waredoor_ware2_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-450 950 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="47" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_warehouse2alldoorsactivate"/>
+				<entry key="id" type="number" value="100042"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="dooractivate"/>
+							<entry key="instance" type="string" value="waredoor_ware2_3"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="shutterup"/>
+							<entry key="instance" type="string" value="waredoor_ware2_3"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="dooractivate"/>
+							<entry key="instance" type="string" value="waredoor_ware2_2"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="shutterup"/>
+							<entry key="instance" type="string" value="waredoor_ware2_2"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="event" type="string" value="dooractivate"/>
+							<entry key="instance" type="string" value="waredoor_ware2_1"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="event" type="string" value="shutterup"/>
+							<entry key="instance" type="string" value="waredoor_ware2_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-450 850 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="48" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_warehouse1door1activate"/>
+				<entry key="id" type="number" value="100047"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="dooractivate"/>
+							<entry key="instance" type="string" value="waredoor_ware1_1"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="shutterup"/>
+							<entry key="instance" type="string" value="waredoor_ware1_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-500 700 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="49" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_warehouse1door2activate"/>
+				<entry key="id" type="number" value="100048"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="dooractivate"/>
+							<entry key="instance" type="string" value="waredoor_ware1_2"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="shutterup"/>
+							<entry key="instance" type="string" value="waredoor_ware1_2"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-500 625 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="50" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_warehouse1door3activate"/>
+				<entry key="id" type="number" value="100049"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="dooractivate"/>
+							<entry key="instance" type="string" value="waredoor_ware1_3"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="shutterup"/>
+							<entry key="instance" type="string" value="waredoor_ware1_3"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-500 550 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="51" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_warehouse2door1activate"/>
+				<entry key="id" type="number" value="100050"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="dooractivate"/>
+							<entry key="instance" type="string" value="waredoor_ware2_1"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="shutterup"/>
+							<entry key="instance" type="string" value="waredoor_ware2_1"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-450 700 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="52" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_warehouse2door2activate"/>
+				<entry key="id" type="number" value="100051"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="dooractivate"/>
+							<entry key="instance" type="string" value="waredoor_ware2_2"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="shutterup"/>
+							<entry key="instance" type="string" value="waredoor_ware2_2"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-450 625 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="53" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instinputevent_warehouse2door3activate"/>
+				<entry key="id" type="number" value="100052"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="dooractivate"/>
+							<entry key="instance" type="string" value="waredoor_ware2_3"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="shutterup"/>
+							<entry key="instance" type="string" value="waredoor_ware2_3"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-450 550 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="54" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_warehouse1dooractivate"/>
+				<entry key="id" type="number" value="100053"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="2"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100047"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100048"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100049"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-500 775 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="55" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_warehouse2dooractivate"/>
+				<entry key="id" type="number" value="100054"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="2"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100050"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100051"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100052"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-450 775 3554.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+		</entry>
+		<entry key="instances" type="table">
+			<entry index="1" type="string" value="windowshutter_ware2_1"/>
+			<entry index="2" type="string" value="windowshutter_ware2_2"/>
+			<entry index="3" type="string" value="windowshutter_ware2_3"/>
+			<entry index="4" type="string" value="windowshutter_ware2_4"/>
+			<entry index="5" type="string" value="windowshutter_ware2_5"/>
+			<entry index="6" type="string" value="windowshutter_ware2_6"/>
+			<entry index="7" type="string" value="windowshutter_ware2_7"/>
+			<entry index="8" type="string" value="windowshutter_ware2_8"/>
+			<entry index="9" type="string" value="windowshutter_ware2_9"/>
+			<entry index="10" type="string" value="windowshutter_ware2_10"/>
+			<entry index="11" type="string" value="windowshutter_ware2_11"/>
+			<entry index="12" type="string" value="windowshutter_ware2_12"/>
+			<entry index="13" type="string" value="windowshutter_ware2_13"/>
+			<entry index="14" type="string" value="windowshutter_ware2_14"/>
+			<entry index="15" type="string" value="windowshutter_ware2_15"/>
+			<entry index="16" type="string" value="windowshutter_ware2inside_1"/>
+			<entry index="17" type="string" value="windowshutter_ware2inside_2"/>
+			<entry index="18" type="string" value="windowshutter_ware2inside_3"/>
+			<entry index="19" type="string" value="windowshutter_ware2inside_4"/>
+			<entry index="20" type="string" value="windowshutter_ware2inside_5"/>
+			<entry index="21" type="string" value="windowshutter_ware2inside_6"/>
+			<entry index="22" type="string" value="doorshutter_ware2_1"/>
+			<entry index="23" type="string" value="doorshutter_ware2_2"/>
+			<entry index="24" type="string" value="doorshutter_ware2_3"/>
+			<entry index="25" type="string" value="doorshutter_ware2_4"/>
+			<entry index="26" type="string" value="doorshutter_ware1_1"/>
+			<entry index="27" type="string" value="doorshutter_ware1_2"/>
+			<entry index="28" type="string" value="doorshutter_ware1_3"/>
+			<entry index="29" type="string" value="doorshutter_ware1_4"/>
+			<entry index="30" type="string" value="doorshutter_ware1_5"/>
+			<entry index="31" type="string" value="windowshutter_ware1_1"/>
+			<entry index="32" type="string" value="windowshutter_ware1_2"/>
+			<entry index="33" type="string" value="windowshutter_ware1_3"/>
+			<entry index="34" type="string" value="windowshutter_ware1_4"/>
+			<entry index="35" type="string" value="windowshutter_ware1_5"/>
+			<entry index="36" type="string" value="windowshutter_ware1_6"/>
+			<entry index="37" type="string" value="windowshutter_ware1_7"/>
+			<entry index="38" type="string" value="windowshutter_ware1_8"/>
+			<entry index="39" type="string" value="windowshutter_ware1_9"/>
+			<entry index="40" type="string" value="doorshutter_ware3_1"/>
+			<entry index="41" type="string" value="doorshutter_ware3_2"/>
+			<entry index="42" type="string" value="windowshutter_ware3_1"/>
+			<entry index="43" type="string" value="windowshutter_ware3_2"/>
+			<entry index="44" type="string" value="windowshutter_ware3_3"/>
+			<entry index="45" type="string" value="windowshutter_ware3_4"/>
+			<entry index="46" type="string" value="windowshutter_ware3_5"/>
+			<entry index="47" type="string" value="windowshutter_ware3_6"/>
+			<entry index="48" type="string" value="windowshutter_ware3_7"/>
+			<entry index="49" type="string" value="windowshutter_ware3_8"/>
+			<entry index="50" type="string" value="doorshutter_ware3_3"/>
+			<entry index="51" type="string" value="windowshutter_ware2inside1"/>
+			<entry index="52" type="string" value="windowshutter_ware2inside2"/>
+			<entry index="53" type="string" value="waredoor_ware1_1"/>
+			<entry index="54" type="string" value="waredoor_ware1_2"/>
+			<entry index="55" type="string" value="waredoor_ware1_3"/>
+			<entry index="56" type="string" value="waredoor_ware1_inner_1"/>
+			<entry index="57" type="string" value="waredoor_ware1_inner_2"/>
+			<entry index="58" type="string" value="waredoor_ware2_1"/>
+			<entry index="59" type="string" value="waredoor_ware2_2"/>
+			<entry index="60" type="string" value="waredoor_ware2_3"/>
+		</entry>
+		<entry key="name" type="string" value="default"/>
+	</entry>
+	<entry key="expanded" type="table">
+		<entry key="activate_on_parsed" type="boolean" value="true"/>
+		<entry key="continent" type="string" value="world"/>
+		<entry key="elements" type="table">
+		</entry>
+		<entry key="instances" type="table">
+		</entry>
+		<entry key="name" type="string" value="expanded"/>
+	</entry>
+</generic_scriptdata>

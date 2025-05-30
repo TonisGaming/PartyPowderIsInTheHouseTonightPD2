@@ -1,0 +1,8 @@
+{
+	"world":{
+	"file":"world/world"
+},
+	"editor_only":{
+	"file":"editor_only/editor_only"
+}
+}

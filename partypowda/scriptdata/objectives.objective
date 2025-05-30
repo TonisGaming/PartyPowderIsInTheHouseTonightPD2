@@ -1,0 +1,6 @@
+<table>
+	<objective description="parpow_van_1_desc" id="parpow_van_1" text="parpow_van_1"/>
+	<objective description="parpow_van_2_desc" id="parpow_van_2" text="parpow_van_2"/>
+	<objective description="parpow_van_3_desc" id="parpow_van_3" text="parpow_van_3"/>
+	<objective description="parpow_van_4_desc" id="parpow_van_4" text="parpow_van_4"/>
+</table>

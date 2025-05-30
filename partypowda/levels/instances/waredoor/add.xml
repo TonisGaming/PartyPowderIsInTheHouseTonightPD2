@@ -1,0 +1,109 @@
+<table directory="assets">
+	<add from_db="true" path="units/dev_tools/level_tools/dev_equipment_forbidden_collision/dev_equipment_forbidden_collision_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_equipment_forbidden_collision/dev_equipment_forbidden_collision_1x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_equipment_forbidden_collision/dev_equipment_forbidden_collision_1x3m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline" type="unit">
+		<unit path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline"/>
+		<object path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/props/mex_prop_keypad_manual/mex_prop_keypad_manual" type="unit">
+		<material_config path="units/pd2_dlc_mex/props/mex_prop_keypad_manual/mex_prop_keypad_manual"/>
+		<object path="units/pd2_dlc_mex/props/mex_prop_keypad_manual/mex_prop_keypad_manual"/>
+		<sequence_manager path="units/pd2_dlc_mex/props/mex_prop_keypad_manual/mex_prop_keypad_manual"/>
+		<unit path="units/pd2_dlc_mex/props/mex_prop_keypad_manual/mex_prop_keypad_manual"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_trai/props/trai_prop_keypad/trai_prop_keypad" type="unit">
+		<material_config path="units/pd2_dlc_trai/props/trai_prop_keypad/trai_prop_keypad"/>
+		<object path="units/pd2_dlc_trai/props/trai_prop_keypad/trai_prop_keypad"/>
+		<sequence_manager path="units/pd2_dlc_trai/props/trai_prop_keypad/trai_prop_keypad"/>
+		<unit path="units/pd2_dlc_trai/props/trai_prop_keypad/trai_prop_keypad"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_tag/props/tag_prop_keypad/tag_prop_keypad" type="unit">
+		<material_config path="units/pd2_dlc_tag/props/tag_prop_keypad/tag_prop_keypad"/>
+		<object path="units/pd2_dlc_tag/props/tag_prop_keypad/tag_prop_keypad"/>
+		<sequence_manager path="units/pd2_dlc_tag/props/tag_prop_keypad/tag_prop_keypad"/>
+		<unit path="units/pd2_dlc_tag/props/tag_prop_keypad/tag_prop_keypad"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_tag/props/tag_prop_com_alarm_keycard_keypad/tag_prop_com_alarm_keycard_keypad" type="unit">
+		<material_config path="units/pd2_dlc_tag/props/tag_prop_com_alarm_keycard_keypad/tag_prop_com_alarm_keycard_keypad"/>
+		<object path="units/pd2_dlc_tag/props/tag_prop_com_alarm_keycard_keypad/tag_prop_com_alarm_keycard_keypad"/>
+		<sequence_manager path="units/pd2_dlc_tag/props/tag_prop_com_alarm_keycard_keypad/tag_prop_com_alarm_keycard_keypad"/>
+		<unit path="units/pd2_dlc_tag/props/tag_prop_com_alarm_keycard_keypad/tag_prop_com_alarm_keycard_keypad"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/props/sand_prop_keypad/sand_prop_keypad" type="unit">
+		<effect load="true" path="effects/payday2/particles/electric/electric_sparks_break"/>
+		<material_config path="units/pd2_dlc_sand/props/sand_prop_keypad/sand_prop_keypad"/>
+		<object path="units/pd2_dlc_sand/props/sand_prop_keypad/sand_prop_keypad"/>
+		<sequence_manager path="units/pd2_dlc_sand/props/sand_prop_keypad/sand_prop_keypad"/>
+		<unit path="units/pd2_dlc_sand/props/sand_prop_keypad/sand_prop_keypad"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/props/sand_prop_keypad/sand_interactable_button" type="unit">
+		<material_config path="units/pd2_dlc_sand/props/sand_prop_keypad/sand_prop_keypad"/>
+		<object path="units/pd2_dlc_sand/props/sand_prop_keypad/sand_interactable_button"/>
+		<sequence_manager path="units/pd2_dlc_sand/props/sand_prop_keypad/sand_interactable_button"/>
+		<unit path="units/pd2_dlc_sand/props/sand_prop_keypad/sand_interactable_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_drive/props/str_prop_keypad_button/str_prop_keypad_button" type="unit">
+		<object path="units/pd2_dlc_drive/props/str_prop_keypad_button/str_prop_keypad_button"/>
+		<sequence_manager path="units/pd2_dlc_drive/props/str_prop_keypad_button/str_prop_keypad_button"/>
+		<unit path="units/pd2_dlc_drive/props/str_prop_keypad_button/str_prop_keypad_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_keypad_wire/cas_prop_keypad_wire" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_keypad_wire/cas_prop_keypad_wire"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_keypad_wire/cas_prop_keypad_wire"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_keypad_wire/cas_prop_keypad_wire"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_keypad_wire/cas_prop_keypad_wire"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/architecture/ext/pex_ext_leaking_decal/pex_ext_leaking_decal_2m" type="unit">
+		<material_config path="units/pd2_dlc_pex/architecture/ext/pex_ext_leaking_decal/pex_ext_leaking_decal"/>
+		<object path="units/pd2_dlc_pex/architecture/ext/pex_ext_leaking_decal/pex_ext_leaking_decal_2m"/>
+		<unit path="units/pd2_dlc_pex/architecture/ext/pex_ext_leaking_decal/pex_ext_leaking_decal_2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/nature/pex_backdrop/pex_backdrop_transmission_tower_01" type="unit">
+		<material_config path="units/pd2_dlc_pex/nature/pex_backdrop/pex_backdrop_props"/>
+		<object path="units/pd2_dlc_pex/nature/pex_backdrop/pex_backdrop_transmission_tower_01"/>
+		<unit path="units/pd2_dlc_pex/nature/pex_backdrop/pex_backdrop_transmission_tower_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/pickups/pex_pku_red_key/pex_pku_red_key" type="unit">
+		<unit path="units/pd2_dlc_pex/pickups/pex_pku_red_key/pex_pku_red_key"/>
+		<object path="units/pd2_dlc_pex/pickups/pex_pku_red_key/pex_pku_red_key"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<material_config path="units/pd2_dlc_pex/pickups/pex_pku_red_key/pex_pku_red_key"/>
+		<sequence_manager path="units/pd2_dlc_pex/pickups/pex_pku_red_key/pex_pku_red_key"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/props/pex_prop_hallway_bench/pex_prop_hallway_bench" type="unit">
+		<material_config path="units/pd2_dlc_pex/props/pex_prop_hallway_bench/pex_prop_hallway_bench"/>
+		<object path="units/pd2_dlc_pex/props/pex_prop_hallway_bench/pex_prop_hallway_bench"/>
+		<unit path="units/pd2_dlc_pex/props/pex_prop_hallway_bench/pex_prop_hallway_bench"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard" type="unit">
+		<material_config path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader"/>
+		<object path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard"/>
+		<sequence_manager path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard"/>
+		<unit path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_computerpad" type="unit">
+		<material_config path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_computerpad"/>
+		<object path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_computerpad"/>
+		<sequence_manager path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_computerpad"/>
+		<unit path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_computerpad"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader" type="unit">
+		<unit path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader"/>
+		<object path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader"/>
+		<material_config path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader"/>
+		<sequence_manager path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader"/>
+	</add>
+</table>
