@@ -8,12 +8,11 @@
 	<instance id="waredoor">
 		<packages/>
 	</instance>
-	<instance id="cagekeypadhopefully">
-		<packages>
-			<value_node value="levels/instances/unique/bph/bph_cell_keypad/world"/>
-			<value_node value="levels/instances/unique/bph/bph_cell_keypad/world_sounds"/>
-			<value_node value="levels/instances/unique/bph/bph_cell_keypad/world/world"/>
-		</packages>
+	<instance id="containerpowda">
+		<packages/>
+	</instance>
+	<instance id="cratepowda">
+		<packages/>
 	</instance>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>

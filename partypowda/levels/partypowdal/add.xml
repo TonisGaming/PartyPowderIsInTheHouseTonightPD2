@@ -9947,9 +9947,48 @@
 		<unit path="units/payday2/equipment/hlm_interactable_bar_code_shaw/hlm_interactable_bar_code_shaw"/>
 	</add>
 	<add from_db="true" path="units/payday2/equipment/hlm_interactable_bar_code_reader/hlm_interactable_bar_code_reader" type="unit">
-		<unit path="units/payday2/equipment/hlm_interactable_bar_code_reader/hlm_interactable_bar_code_reader"/>
-		<object path="units/payday2/equipment/hlm_interactable_bar_code_reader/hlm_interactable_bar_code_reader"/>
 		<material_config path="units/payday2/equipment/hlm_interactable_bar_code_reader/hlm_interactable_bar_code_reader"/>
+		<object path="units/payday2/equipment/hlm_interactable_bar_code_reader/hlm_interactable_bar_code_reader"/>
 		<sequence_manager path="units/payday2/equipment/hlm_interactable_bar_code_reader/hlm_interactable_bar_code_reader"/>
+		<unit path="units/payday2/equipment/hlm_interactable_bar_code_reader/hlm_interactable_bar_code_reader"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/props/mex_prop_arrest_warrant/mex_prop_arrest_warrant_02" type="unit">
+		<material_config path="units/pd2_dlc_mex/props/mex_prop_arrest_warrant/mex_prop_arrest_warrant_02"/>
+		<object path="units/pd2_dlc_mex/props/mex_prop_arrest_warrant/mex_prop_arrest_warrant_02"/>
+		<unit path="units/pd2_dlc_mex/props/mex_prop_arrest_warrant/mex_prop_arrest_warrant_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/props/mex_prop_console/mex_prop_console" type="unit">
+		<material_config path="units/pd2_dlc_mex/props/mex_prop_console/mex_prop_console"/>
+		<object path="units/pd2_dlc_mex/props/mex_prop_console/mex_prop_console"/>
+		<sequence_manager path="units/pd2_dlc_mex/props/mex_prop_console/mex_prop_console"/>
+		<unit path="units/pd2_dlc_mex/props/mex_prop_console/mex_prop_console"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/props/mex_prop_mountain_door/mex_prop_mountain_door" type="unit">
+		<material_config path="units/pd2_dlc_mex/props/mex_prop_mountain_door/mex_prop_mountain_door"/>
+		<object path="units/pd2_dlc_mex/props/mex_prop_mountain_door/mex_prop_mountain_door"/>
+		<sequence_manager path="units/pd2_dlc_mex/props/mex_prop_mountain_door/mex_prop_mountain_door"/>
+		<unit path="units/pd2_dlc_mex/props/mex_prop_mountain_door/mex_prop_mountain_door"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_map_knife_trautman" type="unit">
+		<material_config path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_map_knife_trautman"/>
+		<object path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_map_knife_trautman"/>
+		<unit path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_map_knife_trautman"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/props/mex_prop_security_monitor/mex_prop_security_monitor" type="unit">
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/pd2_dlc_mex/props/mex_prop_security_monitor/mex_prop_security_monitor"/>
+		<object path="units/pd2_dlc_mex/props/mex_prop_security_monitor/mex_prop_security_monitor"/>
+		<sequence_manager path="units/pd2_dlc_mex/props/mex_prop_security_monitor/mex_prop_security_monitor"/>
+		<unit path="units/pd2_dlc_mex/props/mex_prop_security_monitor/mex_prop_security_monitor"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/props/mex_prop_sign_close_door/mex_prop_sign_close_door" type="unit">
+		<material_config path="units/pd2_dlc_mex/props/mex_prop_sign_close_door/mex_prop_sign_close_door"/>
+		<object path="units/pd2_dlc_mex/props/mex_prop_sign_close_door/mex_prop_sign_close_door"/>
+		<unit path="units/pd2_dlc_mex/props/mex_prop_sign_close_door/mex_prop_sign_close_door"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/props/sand_interactable_container_lock/sand_interactable_container_lock" type="unit">
+		<unit path="units/pd2_dlc_sand/props/sand_interactable_container_lock/sand_interactable_container_lock"/>
+		<object path="units/pd2_dlc_sand/props/sand_interactable_container_lock/sand_interactable_container_lock"/>
+		<sequence_manager path="units/pd2_dlc_sand/props/sand_interactable_container_lock/sand_interactable_container_lock"/>
 	</add>
 </table>

@@ -1,0 +1,54 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_vis_show" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" name_id="ind_interactable_shipping_crate_2x1x1m_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-103.582 538.77 310.05" _prev_rot="0 0 -0.587785 -0.809017" continent="world" local_pos="-3.58191 38.7703 37.6459" local_rot="0 0 0.587785 0.809017" name="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine_pure" name_id="gen_pku_cocaine_pure_002" position="-3.58191 38.7703 37.6459" rotation="0 0 -0.587785 -0.809017" unit_id="100002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 37.596" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_arena/pickups/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped" name_id="gen_pku_money_plasic_wrapped_001" position="0 0 37.596" rotation="0 0 0 -1" unit_id="100003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-94.9604 456.528 304" _prev_rot="0 0 -0.766045 -0.642788" continent="world" local_pos="5.03956 -43.4719 31.596" local_rot="0 0 0.766045 0.642788" mesh_variation="" name="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine" name_id="gen_pku_cocaine_002" position="5.03956 -43.4719 31.596" rotation="0 0 -0.766045 -0.642788" unit_id="100004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 -6 30.596" _prev_rot="0 0 0.0784591 -0.996917" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_gold" name_id="ind_interactable_hardcase_loot_gold_001" position="0 -6 42.596" rotation="0 0 0.0784592 -0.996917" unit_id="100005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-102.209 460.963 302" _prev_rot="0 0 -0.21644 -0.976296" continent="world" local_pos="-2.20879 -39.0368 29.596" local_rot="0 0 0.21644 0.976296" mesh_variation="" name="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_cocaine" name_id="ind_interactable_hardcase_loot_cocaine_001" position="-2.20879 -39.0368 29.596" rotation="0 0 -0.21644 -0.976296" unit_id="100006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 -50 28.6459" _prev_rot="0 0 -0.788011 -0.615661" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine_pure" name_id="gen_pku_cocaine_pure_001" position="0 -50 28.6459" rotation="0 0 -0.788011 -0.615661" unit_id="100007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-98 528 304" _prev_rot="0 0 -0.649448 -0.760406" continent="world" local_pos="2 28 31.596" local_rot="0 0 0.649448 0.760406" mesh_variation="" name="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine" name_id="gen_pku_cocaine_001" position="2 28 31.596" rotation="0 0 -0.649448 -0.760406" unit_id="100008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-101.645 530.739 302" _prev_rot="0 0 0.0958458 -0.995396" continent="world" local_pos="-1.6445 30.7392 29.596" local_rot="0 0 -0.0958458 0.995396" mesh_variation="" name="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_cocaine" name_id="ind_interactable_hardcase_loot_cocaine_002" position="-1.6445 30.7392 29.596" rotation="0 0 0.0958458 -0.995396" unit_id="100009"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7.25892 -1.14966 21.5994" _prev_rot="0.0735424 -0.046582 0.993412 -0.0745213" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_2x1/spawn_scar" name_id="spawn_scar_001" position="-6.79974 -1.39443 24.5539" rotation="0.0735425 -0.046582 0.993412 -0.0745212" unit_id="100010"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10.5973 138.132 23.596" _prev_rot="0 0 0.981627 -0.190809" continent="world" local_pos="-31 -89 -8" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_1x1/spawn_glock" name_id="spawn_glock_002" position="-6.76787 51.2395 23.596" rotation="0 0 -0.981627 0.190809" unit_id="100011"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6 44 31.596" _prev_rot="0 0 0.981627 -0.190809" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_1x1/spawn_glock" name_id="spawn_glock_001" position="-2.17056 -42.8927 31.596" rotation="0 0 0.981627 -0.190809" unit_id="100012"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="7.59472 11.7807 41.6569" _prev_rot="0.0663642 0.206726 -0.783666 -0.582003" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_ranc/props/ranc_int_prop_weapon_workbench/spawn_crafted_weapon" name_id="spawn_crafted_weapon_001" position="7.59472 11.7807 41.6569" rotation="0.0480943 0.211724 -0.729959 -0.648089" unit_id="100013"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7.59895 -1 26.3342" _prev_rot="-0.0435381 -0.019371 0.997185 -0.0578938" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47" name_id="spawn_ak47_001" position="-8.02188 -1.21837 31.3115" rotation="-0.0435379 -0.019371 0.997185 -0.0578938" unit_id="100014"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 11" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_set_marking_color_blue" name="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/ranc_weapon_box_marking" name_id="ranc_weapon_box_marking_001" position="0 0 1" rotation="-0 0 -0 -1" unit_id="100000"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

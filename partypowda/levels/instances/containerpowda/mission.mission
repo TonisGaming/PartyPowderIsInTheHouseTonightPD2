@@ -1,0 +1,4 @@
+<table>
+	<editor file="editor/editor"/>
+	<world file="world/world"/>
+</table>
